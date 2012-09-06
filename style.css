@@ -33,14 +33,20 @@ body {
 	margin: 20px auto;
 }
 
-#primary {}
+.container_singleblogloop #primary {}
 
-#portfolio {}
+.container_singleblogloop #portfolio {}
 
 #container_additionalcontent {
 	width: 200px;
 	float: left;
 	margin: 20px;
+}
+
+#page {
+	width: 800px;
+	margin: 20px auto;
+	padding: 50px;
 }
 
 /*///////// TYPOGRAPHY /////////*/
