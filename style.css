@@ -49,6 +49,12 @@ body {
 	padding: 50px;
 }
 
+#four_o_four {
+	width: 900px;
+	margin: 20px auto;
+	text-align: center;
+}
+
 /*///////// TYPOGRAPHY /////////*/
 h1 {
 	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
