@@ -31,6 +31,10 @@ body {
 	padding: 10px;
 }
 
+#header .single {}
+
+#header .page {}
+
 /*- blog -*/
 #blog_container {
 	float: left;

@@ -17,3 +17,16 @@
 <body>
 	<a id="top"></a><!-- Anchor for top of page. -->
 	<div id="container"><!-- Page content container. -->
+	
+	<?php
+	if( is_single() || is_page() ) {
+		( is_single()) ? $class = 'single' : $class = 'page';
+	} 
+	?>
+	
+	<div id="header" class="<?php echo $class; ?>">
+		
+		<h1><?php bloginfo( 'name' ); ?></h1>
+		<h2><?php bloginfo( 'description' ); ?></h2>
+
+	</div><!--#header-->

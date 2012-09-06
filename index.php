@@ -1,7 +1,5 @@
 <?php
 get_header();
-
-include (TEMPLATEPATH . '/home_header.php');
 ?>
 
 <div id="blog_container"><!-- Container for the blog loop. -->

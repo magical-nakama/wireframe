@@ -6,8 +6,6 @@
 
 get_header();
 
-include (TEMPLATEPATH . '/single_header.php');
-
 while (have_posts()) : the_post(); ?>
 		
 	<?php
