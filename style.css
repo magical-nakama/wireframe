@@ -33,6 +33,10 @@ body {
 	margin: 20px auto;
 }
 
+#primary {}
+
+#portfolio {}
+
 #container_additionalcontent {
 	width: 200px;
 	float: left;
@@ -114,8 +118,6 @@ a:visited {}
 	display: inline;
 }
 
-/*///////// BLOG ELEMENTS /////////*/
-
 /*///////// FOOTER /////////*/
 #footer {
 	clear: both;
@@ -127,5 +129,3 @@ a:visited {}
 }
 
 /*///////// IMAGES /////////*/
-
-/*///////// FUN CLASSES /////////*/

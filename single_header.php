@@ -9,6 +9,6 @@
 ?>
 
 <div id="header">
-	<h1>Page Logo</h1>
-	<h2>A subtitle</h2>
+	<h3>Page Logo</h3>
+	<h4>A subtitle</h4>
 </div><!--#header-->
