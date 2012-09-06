@@ -2,9 +2,6 @@
 /*
 ** Standard Header Information.
 ** Sets up doctype and links to stylesheet listed in WP settings.
-***
-**** To Do:
-**** *Add PHP code to display custom title depending on the page.
 */
 ?>
 
@@ -12,7 +9,7 @@
 
 <html lang="en">
 <head>
-	<title>A Title</title>
+	<title><?php bloginfo( 'name' ); ?></title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url'); ?>" />
 </head>

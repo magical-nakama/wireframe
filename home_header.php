@@ -9,6 +9,6 @@
 ?>
 
 <div id="header">
-	<h1>Page Logo</h1>
-	<h2>A subtitle</h2>
+	<h1><?php bloginfo( 'name' ); ?></h1>
+	<h2><?php bloginfo( 'description' ); ?></h2>
 </div><!--#header-->

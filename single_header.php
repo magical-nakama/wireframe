@@ -1,14 +1,11 @@
 <?php
 /*
-** Home Header
-** Displays header for homepage.
-***
-**** To do:
-**** *Add PHP code to place actual listed site info in h1 and h2 tags.
+** Single Header
+** Displays header for single posts and pages.
 */
 ?>
 
 <div id="header">
-	<h3>Page Logo</h3>
-	<h4>A subtitle</h4>
+	<h3><?php bloginfo( 'name' ); ?></h3>
+	<h4><?php bloginfo( 'description' ); ?></h4>
 </div><!--#header-->
