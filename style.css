@@ -1,11 +1,11 @@
 /*
 Theme Name: wireframe
-Theme URI: http://www.magicalnakama.com
-Author: James
+Theme URI: http://www.github.com/magical-nakama/wireframe
+Author: James O'Neill
 Author URI: http://www.magicalnakama.com
-Description: A test right now.
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Description: A basic wireframe theme layout.
+License:
+License URI:
 */
 
 /*///////// GENERAL /////////*/
@@ -26,6 +26,11 @@ body {
 	float: left;
 	width: 600px;
 	margin: 20px;
+}
+
+.container_singleblogloop {
+	width: 800px;
+	margin: 20px auto;
 }
 
 #container_additionalcontent {
@@ -110,8 +115,6 @@ a:visited {}
 }
 
 /*///////// BLOG ELEMENTS /////////*/
-
-/*///////// FORMS /////////*/
 
 /*///////// FOOTER /////////*/
 #footer {
