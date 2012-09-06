@@ -8,9 +8,13 @@
 */
 ?>
 		
-		<div id="footer">
+	<div id="footer_container">
+		
+		<div id="footer_content">
+			
 			<p>Blah, blah, blah. Generic footer information.</p>
-		</div><!--#footer-->
-	</div><!--#container-->
+		
+		</div><!--#footer_content-->
+	</div><!--#footer_container-->
 </body>
 </html>

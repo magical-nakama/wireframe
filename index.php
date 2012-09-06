@@ -1,8 +1,37 @@
 <?php
-include (TEMPLATEPATH . '/header.php');
+get_header();
+
 include (TEMPLATEPATH . '/home_header.php');
-include (TEMPLATEPATH . '/primary_blogloop.php');
-include (TEMPLATEPATH . '/additional_content.php');
+?>
+
+<div id="blog_container"><!-- Container for the blog loop. -->
+			
+	<div id="blog_posts">
+				
+		<?php $primary = new WP_Query( 'category_name=primary&posts_per_page=3' ); ?>
+				
+		<?php if ($primary->have_posts()) : ?>
+				
+			<?php while ($primary->have_posts()) : $primary->the_post(); ?>
+				
+				<h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>
+				
+				<?php the_content('<br/>Find out more.');?>
+			
+			<?php endwhile; ?>
+				
+		<?php else : ?>
+			<h2>Not Found</h2>
+			<p>No entries found.</p>
+		<?php endif; ?>
+		
+	</div><!--#content-->
+</div><!--#container_blogloop-->
+
+<?php
+get_sidebar();
+
 include (TEMPLATEPATH . '/main_navigation.php');
-include (TEMPLATEPATH . '/footer.php');
+
+get_footer();
 ?>

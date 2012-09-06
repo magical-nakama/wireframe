@@ -7,7 +7,7 @@
 
 <div id="container_blogloop"><!-- Container for the blog loop. -->
 			
-	<div id="content">
+	<div id="blog">
 				
 		<?php $primary = new WP_Query( 'category_name=primary&posts_per_page=3' ); ?>
 				

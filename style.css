@@ -8,7 +8,9 @@ License:
 License URI:
 */
 
-/*///////// GENERAL /////////*/
+
+/*///////// GENERAL DISPLAY /////////*/
+
 body {
 	margin: 0px;
 }
@@ -17,101 +19,79 @@ body {
 	margin: 0 auto;
 	width: 900px;
 	border: 1px solid #666666;
-	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	line-height: 16px;
 }
 
-#container_blogloop {
-	float: left;
-	width: 600px;
-	margin: 20px;
-}
 
-.container_singleblogloop {
-	width: 800px;
-	margin: 20px auto;
-}
+/*///////// SPECIFIC ELEMENT DISPLAY /////////*/
 
-.container_singleblogloop #primary {}
-
-.container_singleblogloop #portfolio {}
-
-#container_additionalcontent {
-	width: 200px;
-	float: left;
-	margin: 20px;
-}
-
-#page {
-	width: 800px;
-	margin: 20px auto;
-	padding: 50px;
-}
-
-#four_o_four {
-	width: 900px;
-	margin: 20px auto;
-	text-align: center;
-}
-
-/*///////// TYPOGRAPHY /////////*/
-h1 {
-	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
-	font-size: 32px;
-}
-h2 {
-	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
-	font-size: 22px;
-}
-h3 {
-	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
-	font-size: 16px;
-}
-h4 {
-	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
-	font-size: 12px;
-}
-p {
-	margin-bottom: 18px;
-}
-a {
-	text-decoration: none;
-	font-weight: bold;
-	color: #000000;
-}
-a:hover {
-	text-decoration: underline;
-}
-a:visited {}
-
-/*///////// HEADERS /////////*/
+/*- headers -*/
 #header {
 	height: 150px;
 	border-bottom: 1px solid #003333;
 	padding: 10px;
 }
 
-/*///////// CONTENT /////////*/
-#content {
+/*- blog -*/
+#blog_container {
+	float: left;
+	width: 600px;
+	margin: 20px;
+}
+
+#blog_posts {
 	border: 1px solid #333333;
 	padding: 10px
 }
 
-/*///////// BLURB /////////*/
+.single_post {
+	width: 800px;
+	margin: 20px auto;
+}
+
+.single_post #primary {
+
+}
+
+/*- sidebar -*/
+
+#sidebar_container {
+	width: 200px;
+	float: left;
+	margin: 20px;
+}
+
 #blurb {
 	margin-bottom: 10px;
 	border: 1px solid #003333;
 	padding: 5px;
 }
 
-/*///////// PORTFOLIO /////////*/
+
 #portfolio {
 	border: 1px solid #003333;
 	padding: 5px;
 }
 
-/*///////// NAVIGATION /////////*/
+/*- static page content -*/
+
+#page_container {
+	width: 800px;
+	margin: 20px auto;
+	padding: 50px;
+}
+
+#page_content {
+
+}
+
+/*- portfolio post -*/
+
+.single_post #portfolio {
+
+}
+
+/*- navigation bar -*/
+
 #main_navigation {
 	position: absolute;
 	top: 100px;
@@ -120,18 +100,19 @@ a:visited {}
 	border-bottom: 1px solid #003333;
 }
 
-#main_navigation h4{
-	display: none;
-}
-
 #navigation li {
 	list-style: none;
 	margin: 5px;
 	display: inline;
 }
 
-/*///////// FOOTER /////////*/
-#footer {
+#main_navigation h4{
+	display: none;
+}
+
+/*- footer -*/
+
+#footer_container {
 	clear: both;
 	border-top: 1px solid #003333;
 	border-bottom: 1px solid #003333;
@@ -140,4 +121,58 @@ a:visited {}
 	margin 0 auto;
 }
 
-/*///////// IMAGES /////////*/
+#footer_content {
+	padding: 15px;
+}
+
+/*- 404 error message -*/
+
+#four_o_four {
+	width: 900px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+
+/*///////// GENERAL TYPOGRAPHY /////////*/
+
+#container {
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+h4 {
+	font-size: 12px;
+}
+
+p {
+	margin-bottom: 18px;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {}
+
+
+/*///////// SPECIFIC ELEMENT TYPOGRAPHY /////////*/

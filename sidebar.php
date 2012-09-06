@@ -5,7 +5,7 @@
 */
 ?>
 
-<div id="container_additionalcontent"><!-- Container for supplementary information. -->
+<div id="sidebar_container">
 	
 	<?php
 	/*
@@ -50,4 +50,4 @@
 		</ul>
 		
 	</div><!--#portfolio-->
-</div><!--#container_additionalcontent-->
+</div><!--#sidebar_container-->

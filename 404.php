@@ -1,4 +1,9 @@
 <?php
+/*
+** 404
+** Site 404 error page.
+*/
+
 include (TEMPLATEPATH . '/header.php');
 include (TEMPLATEPATH . '/home_header.php');
 ?>
