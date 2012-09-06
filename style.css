@@ -1,0 +1,128 @@
+/*
+Theme Name: wireframe
+Theme URI: http://www.magicalnakama.com
+Author: James
+Author URI: http://www.magicalnakama.com
+Description: A test right now.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*///////// GENERAL /////////*/
+body {
+	margin: 0px;
+}
+
+#container {
+	margin: 0 auto;
+	width: 900px;
+	border: 1px solid #666666;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+#container_blogloop {
+	float: left;
+	width: 600px;
+	margin: 20px;
+}
+
+#container_additionalcontent {
+	width: 200px;
+	float: left;
+	margin: 20px;
+}
+
+/*///////// TYPOGRAPHY /////////*/
+h1 {
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 32px;
+}
+h2 {
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 22px;
+}
+h3 {
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+h4 {
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+p {
+	margin-bottom: 18px;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {}
+
+/*///////// HEADERS /////////*/
+#header {
+	height: 150px;
+	border-bottom: 1px solid #003333;
+	padding: 10px;
+}
+
+/*///////// CONTENT /////////*/
+#content {
+	border: 1px solid #333333;
+	padding: 10px
+}
+
+/*///////// BLURB /////////*/
+#blurb {
+	margin-bottom: 10px;
+	border: 1px solid #003333;
+	padding: 5px;
+}
+
+/*///////// PORTFOLIO /////////*/
+#portfolio {
+	border: 1px solid #003333;
+	padding: 5px;
+}
+
+/*///////// NAVIGATION /////////*/
+#main_navigation {
+	position: absolute;
+	top: 100px;
+	width: 900px;
+	border-top: 1px solid #003333;
+	border-bottom: 1px solid #003333;
+}
+
+#main_navigation h4{
+	display: none;
+}
+
+#navigation li {
+	list-style: none;
+	margin: 5px;
+	display: inline;
+}
+
+/*///////// BLOG ELEMENTS /////////*/
+
+/*///////// FORMS /////////*/
+
+/*///////// FOOTER /////////*/
+#footer {
+	clear: both;
+	border-top: 1px solid #003333;
+	border-bottom: 1px solid #003333;
+	height: 100px;
+	width: 900px;
+	margin 0 auto;
+}
+
+/*///////// IMAGES /////////*/
+
+/*///////// FUN CLASSES /////////*/
