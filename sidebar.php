@@ -1,24 +1,17 @@
 <?php
 /*
-** Additional Content
-** Displays sidebar containing extra content for the home page.
+** Sidebar.php
+** Displays additional content boxes.
 */
 ?>
 
 <div id="sidebar_container">
-	
-	<?php
-	/*
-	*** Blurb
-	*** Displays personal summary
-	**** To do:
-	**** *Develop this section further when creating the "about me" page.
-	*/
-	?>
-	
+
+
 	<div id="blurb">
 				
-		<?php 
+		<?php
+		// Displays text content of 'about me' static page.
 		$page_id = 11;
 		$about_me = get_page( $page_id );
 		?>
@@ -28,20 +21,14 @@
 		<p><a href="<?php echo get_permalink( $page_id ); ?>">Find out more.</a></p>
 				
 	</div><!--#blurb-->
-	
-	
-	<?php
-	/*
-	*** Portfolio
-	*** Displays the titles of the five most recent posts in the portfolio category as an li link.
-	*/
-	?>
 		
 	<div id="portfolio">
 	
 		<h3>Recent Projects</h3>
 		
-		<?php $portfolio = new WP_Query( 'category_name=portfolio&posts_per_page=5' ); ?>
+		<?php 
+		// Displays titles of the five most recent posts in the 'portfolio' category.
+		$portfolio = new WP_Query( 'category_name=portfolio&posts_per_page=5' ); ?>
 		
 		<ul>
 			<?php while ($portfolio->have_posts()) : $portfolio->the_post(); ?>
